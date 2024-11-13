@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+    <fieldset>
+        <legend><b>PICTURE & FORM</b></legend>
+<picture>
+    <source media="(min-width:620px)" srcset="./img1.jpg" height="600">
+    <source media="(min-width:420px)" srcset="./img2.jpg" height="400">
+    <source media="(min-width:320px)" srcset="./img3.jpg" height="300">
+    <img src="./img4.jpg" alt="img4" height="200" width="200">
+</picture>
+<br><br>
+    <form action="./index.html" method="get">
+      <label for="brd">List of Birds:</label>
+      <input list="Birds" name="Birds" id="brd">
+      <datalist id="Birds">
+        <option value="parrot">
+        <option value="sparrow">
+        <option value="white parrot">
+        <option value="pigeon">
+      </datalist>
+      <br><br>
+      <input type="submit" formaction="./index.html">
+    </form>
+</fieldset>
+</center>
+</body>
+</html>
